@@ -7,6 +7,9 @@ from constructs import Construct
 
 
 class Networking(Stack):
+    """
+    VPC, Subnet and other networking resources
+    """
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)

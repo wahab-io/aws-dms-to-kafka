@@ -10,7 +10,7 @@ from constructs import Construct
 
 class DataStreaming(Stack):
     """
-    Data Streaming Stack
+    Data Streaming Stack, DMS and MSK cluster
     """
 
     def __init__(
